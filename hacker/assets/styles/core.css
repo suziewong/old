@@ -1,0 +1,394 @@
+/* *****************************************************************************
+ *
+ * Copyright (c) 2009-2011 Xuld. All rights reserved.
+ * 
+ * Project Url: http://play.xuld.net
+ * 
+ * This source code is part of the Project Py.Core in CSS .
+ * 
+ * This code is licensed under MIT License.
+ * See the file License.html for the license details.
+ * 
+ * core.css v0.4    by   xuld.
+ * 
+ * ******************************************************************************/
+ 
+ 
+ 
+
+
+/*********************************** Fixer *******************************************/
+
+/* Fix margin of legend for IE6 */
+* html legend {
+	margin:0px -8px 16px 0;
+	padding:0;
+}
+
+/* Fix line-height of sup/sub for IE */
+sup {
+	vertical-align:text-top;
+}
+
+sub {
+	vertical-align:text-bottom;
+}
+
+/* Fix margin of hr for IE6 & IE7 */
+hr {
+	margin:-8px auto 11px;
+}
+
+/* reset margin, padding & vertical-align to default value */
+html, body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	height:100%; 
+	vertical-align: baseline;
+}
+
+/* Fix padding-top of fieldset */
+fieldset {
+	padding-top:0;
+}
+/* let textareas looks alike to others in IE6 */
+textarea {
+	overflow:auto;
+}
+
+/* Fix 1px offset in IE8  */
+input {
+	vertical-align: bottom;
+	*vertical-align: middle;
+}
+
+/* Enum inline-block for IE6 & IE7 */
+.inline-block {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;	
+}
+
+/*********************************** Common *******************************************/
+
+
+body {
+	font-size: 10pt;
+	color:#222;
+	font-family: "宋体", Arial, sans-serif;
+}
+
+a img {
+	
+	/* we donot need border in most time  */
+	border: 0;
+}
+
+table {
+	
+	/* thus let table looks smoothy */
+	border-collapse: collapse;
+	empty-cells: show;
+	border:1px solid #0C9;
+}
+
+td, th {
+	
+	/* header should be center-aligned */
+	text-align:center;
+	border:1px solid #0C9;
+}
+
+a {
+	color:#63F;
+	text-decoration:none;
+}
+
+a:active, a.visited {
+	color:#639;
+}
+
+a:hover {
+	text-decoration:underline;
+	color:#03F;
+}
+
+hr {
+	background: #ddd;
+	color: #ddd;
+	clear: both;
+	float: none;
+	height: 1px;
+	border: none;
+}
+
+del {
+	color:#666;
+}
+
+/*********************************** Class *******************************************/
+
+/* size & align */
+
+.larger {
+	font-size:larger;
+}
+.smaller {
+	font-size:smaller;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.center {
+	margin-left:auto;
+	margin-right:auto;
+}
+
+/* columns */
+
+.side {
+	width: 200px;
+}
+
+.nav {
+	width: 132px;
+}
+
+.side-left {
+	margin-left: 140px;	
+}
+
+.side-left.sep{
+	border-left: 1px solid #ddd;
+	padding-left: 10px;
+}
+
+.side-right {
+	margin-right: 140px;	
+}
+
+.side-right.sep{
+	border-right: 1px solid #ddd;
+	padding-right: 10px;
+}
+
+/* clear */
+
+.clear {
+	clear: both;
+}
+
+/* ensure .clear works fine in IE */
+.clear, .container {
+	display:inline-block;
+}
+
+* html .clear, * html .container {
+	height:1%;
+}
+
+/* box & space */
+
+.space {
+	height:5px;
+	display:block;
+	visibility:hidden;
+	background:#fff;
+	color:#fff;
+}
+
+.box{
+	position:relative;
+	width:100px;
+	height:100px;
+	background: #666;
+}
+
+/* display */
+
+.hide {
+	display:none;
+}
+
+
+/* content */
+
+.content{
+	text-align:left;
+	padding:3px 30px 9px 30px;
+}
+
+p.content {
+	text-indent:2em;
+}
+
+.note{
+	border:1pt solid #0C6;
+	line-height:20px;
+	padding:8px;
+}
+
+/* menu & vmenu */
+
+ul.menu, ul.vmenu {
+	margin: 0;
+	padding: 0;
+	font-size: 12pt;
+}
+
+ul.menu li {
+	float:left;
+	list-style: none;
+	overflow: hidden;
+}
+
+ul.menu li{
+	width:80px;	
+}
+
+ul.vmenu li {
+	list-style: none;
+	overflow: hidden;
+	height: 14pt;
+	padding: 1px 1px 1px 20px;
+}
+
+
+.vmenu a{
+	text-decoration: underline;
+}
+
+
+
+/* code */
+
+
+
+.code {
+	border:1pt solid #36F;
+	padding-top: 0px;
+	padding-right: 30px;
+	padding-bottom: 0px;
+	padding-left: 30px;
+}
+
+pre {
+	line-height:18px;
+}
+
+
+/* title */
+
+h1, h2, h3, h4, h5{
+	text-align:left;	
+}
+
+h1{
+	color: green;
+}
+
+h3 {
+	color: #008000;
+}
+
+h4 {
+	color: #096;
+}
+
+
+
+/*  color  */
+
+.red {
+	color: red;
+}
+
+.gray {
+	color: gray;
+}
+
+.shadow {
+	background-color: #666;	
+}
+
+
+/*   hint   */
+
+.error, .warn, .success {
+	padding: 10px;
+	border:2px solid #ddd;
+}
+
+.error {
+	background:#FBE3E4;
+	color:#8a1f11;
+	border-color:#FBC2C4;
+}
+
+.warn {
+	background:#FFF6BF;
+	color:#514721;
+	border-color:#FFD324;
+}
+
+.success {
+	background:#E6EFC2;
+	color:#264409;
+	border-color:#C6D880;
+}
+
+.error a {
+	color:#8a1f11;
+}
+
+.warn a {
+	color:#514721;
+}
+
+.success a {
+	color:#264409;
+}
+
+
+/*********************************** Spec *******************************************/
+
+#wrap{
+	width:90%;
+	margin: 0px auto;
+}
+
+#bar{
+	height:24px;
+	line-height:24px;
+	padding:0px 15px;
+}
+
+#bar div{
+	text-align:right;
+}
+
+#bar a{
+	text-decoration: underline;
+	color: #000;	
+}
+
+#header .right{
+	position:relative;
+	top:24px;
+}
+
+#nav{
+	margin:20px 0;	
+}
+
+#footer{
+	text-align:center;
+	margin-top:9px;
+}

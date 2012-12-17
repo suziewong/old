@@ -1,0 +1,44 @@
+body {
+	margin: 0 auto;
+	width:1170px;
+}
+header {
+	height:150px;
+	width:1170px;
+	margin:0 auto;
+}
+nav {
+	
+}
+.span2{
+	
+}
+
+.span10 {
+	background-color: #DCEAF4;
+
+}
+.carousel {
+	background-color: #ABCDEF;
+	text-align: center;
+	height:80px;
+	margin-bottom: 0px;
+}
+.carousel-inner {
+	margin: 0 auto;
+}
+
+.container {
+	margin:0 auto;
+}
+
+article {
+	width:900px;
+}
+
+#zjut li {
+	margin-right: 50px;
+}
+.thumbnail {
+	width:400px;
+}
