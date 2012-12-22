@@ -2,34 +2,39 @@ var list = {
 
 	"Manual": {
 		"Introduction": [
-			[ "李小龙", "manual/introduction/BruceLee" ]
+			[ "李小龙", "manual/introduction/BruceLee" ],
+			[ "调查", "manual/introduction/Research" ],
+			[ "什么是开源", "manual/introduction/Opensource" ]
 		]
 	},
 
-	"Reference": {
-		"Cameras": [
-			[ "Camera", "api/cameras/Camera" ],
-			[ "OrthographicCamera", "api/cameras/OrthographicCamera" ],
-			[ "PerspectiveCamera", "api/cameras/PerspectiveCamera" ]
+	"开源运动": {
+		"软件应用": [
+			[ "Ubuntu", "opensource/software/Ubuntu" ],
+			[ "Libreoffice", "opensource/software/Libreoffice" ],
+			[ "Nginx", "opensource/software/Nginx" ],
+			[ "MySQL", "opensource/software/MySQL" ],
+			[ "GCC", "opensource/software/GCC" ],
+			[ "浏览器", "opensource/software/Browser" ]
 		],
 
 		"Core": [
-			[ "Clock", "api/core/Clock" ],
-			[ "Color", "api/core/Color" ],
-			[ "Face3", "api/core/Face3" ],
-			[ "Face4", "api/core/Face4" ],
-			[ "Frustum", "api/core/Frustum" ],
-			[ "Geometry", "api/core/Geometry" ],
-			[ "Math", "api/core/Math" ],
-			[ "Matrix3", "api/core/Matrix3" ],
-			[ "Matrix4", "api/core/Matrix4" ],
-			[ "Object3D", "api/core/Object3D" ],
-			[ "Projector", "api/core/Projector" ],
-			[ "Quaternion", "api/core/Quaternion" ],
-			[ "Ray", "api/core/Ray" ],
-			[ "Rectangle", "api/core/Rectangle" ],
-			[ "Spline", "api/core/Spline" ],
-			[ "UV", "api/core/UV" ],
+			[ "Clock", "opensource/software/Clock" ],
+			[ "Color", "opensource/software/Color" ],
+			[ "Face3", "opensource/software/Face3" ],
+			[ "Face4", "opensource/software/Face4" ],
+			[ "Frustum", "opensource/software/Frustum" ],
+			[ "Geometry", "opensource/software/Geometry" ],
+			[ "Math", "opensource/software/Math" ],
+			[ "Matrix3", "opensource/software/Matrix3" ],
+			[ "Matrix4", "opensource/software/Matrix4" ],
+			[ "Object3D", "opensource/software/Object3D" ],
+			[ "Projector", "opensource/software/Projector" ],
+			[ "Quaternion", "opensource/software/Quaternion" ],
+			[ "Ray", "opensource/software/Ray" ],
+			[ "Rectangle", "api/software/Rectangle" ],
+			[ "Spline", "api/software/Spline" ],
+			[ "UV", "api/software/UV" ],
 			[ "Vector2", "api/core/Vector2" ],
 			[ "Vector3", "api/core/Vector3" ],
 			[ "Vector4", "api/core/Vector4" ]
