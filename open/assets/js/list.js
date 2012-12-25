@@ -1,13 +1,22 @@
 var list = {
 
 	"Manual": {
-		"Introduction": [
+		"介绍": [
 			[ "李小龙", "manual/introduction/BruceLee" ],
 			[ "调查", "manual/introduction/Research" ],
-			[ "什么是开源", "manual/introduction/Opensource" ]
+			[ "什么是开源", "manual/introduction/Opensource" ],
+			[ "理念", "manual/introduction/Philosophy"],
+			[ "课程介绍", "manual/introduction/Class"],
+			[ "参考资料", "manual/introduction/Reference"]
+
 		]
 	},
+	"开源文化": {
+		"Introduction": [
+			[ "软件天生就是自由的", "class/freesoftware/Freesoftware" ]
 
+		]
+	},
 	"开源运动": {
 		"软件应用": [
 			[ "Ubuntu", "opensource/software/Ubuntu" ],
@@ -18,26 +27,8 @@ var list = {
 			[ "浏览器", "opensource/software/Browser" ]
 		],
 
-		"Core": [
-			[ "Clock", "opensource/software/Clock" ],
-			[ "Color", "opensource/software/Color" ],
-			[ "Face3", "opensource/software/Face3" ],
-			[ "Face4", "opensource/software/Face4" ],
-			[ "Frustum", "opensource/software/Frustum" ],
-			[ "Geometry", "opensource/software/Geometry" ],
-			[ "Math", "opensource/software/Math" ],
-			[ "Matrix3", "opensource/software/Matrix3" ],
-			[ "Matrix4", "opensource/software/Matrix4" ],
-			[ "Object3D", "opensource/software/Object3D" ],
-			[ "Projector", "opensource/software/Projector" ],
-			[ "Quaternion", "opensource/software/Quaternion" ],
-			[ "Ray", "opensource/software/Ray" ],
-			[ "Rectangle", "api/software/Rectangle" ],
-			[ "Spline", "api/software/Spline" ],
-			[ "UV", "api/software/UV" ],
-			[ "Vector2", "api/core/Vector2" ],
-			[ "Vector3", "api/core/Vector3" ],
-			[ "Vector4", "api/core/Vector4" ]
+		"人物": [
+			[ "阿兰·图灵", "opensource/characters/Turing" ]
 		],
 
 		"Lights": [
