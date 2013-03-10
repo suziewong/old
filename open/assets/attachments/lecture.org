@@ -3166,6 +3166,7 @@ the end， it really doesn’t matter： If
 this book doesn’t kill Unix， nothing
 will”。是的，如果Unix能够存活这么长的时间，
 那么，不会有什么东西可以把他消灭了。
+
 * Linux 与 操作系统
 http://sd.csdn.net/a/20110419/296154.html
 ** 契机
